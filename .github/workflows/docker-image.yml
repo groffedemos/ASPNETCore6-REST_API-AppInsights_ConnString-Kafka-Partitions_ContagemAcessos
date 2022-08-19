@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/renatogroffe/apicontagem-appinsightsconnstring-kafka-dotnet6
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/apicontagem-appinsightsconnstring-kafka-dotnet6
   DIR_WEBAPP: './APIContagem'
   
 jobs:
